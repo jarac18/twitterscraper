@@ -19,7 +19,6 @@ for user in users:
 
 #extract tweets
 tweets = soup.select("p.tweet-text")
-
 for tweet in tweets:
     print(tweet.get_text())
 
